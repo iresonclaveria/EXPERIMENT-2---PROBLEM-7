@@ -1,0 +1,29 @@
+#include <conio.h>
+#include <iostream>
+using namespace std;
+int main()
+{
+    int Sum, Number_1;
+    
+    cout<<"Enter a Number: ";
+    cin>>Number_1;
+    
+    while (Number_1 > 0)
+    {
+        Sum = 0;
+    
+    for (int i=1; i<=Number_1; i++)
+    {
+        Sum = Sum + i;
+    }
+    
+    cout<<"The Sum of all Whole Numbers from 1 to "<<Number_1<< " is: " <<Sum<<endl;
+    cout<<"Enter a Number: ";
+    cin>>Number_1;
+    }
+    
+    cout<<"Thank you!";
+_getch();
+return 0;
+}
+
